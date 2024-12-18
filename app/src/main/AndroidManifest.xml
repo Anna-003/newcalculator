@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Newcalculator"
         tools:targetApi="31">
         <activity
+            android:name=".ADD"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
